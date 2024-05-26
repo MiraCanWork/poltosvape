@@ -1,0 +1,9 @@
+build
+dist
+node_modules
+.eslint*
+*.json
+public
+index.html
+.gitlab
+.gitlab-ci.yml
