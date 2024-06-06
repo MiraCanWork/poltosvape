@@ -1,13 +1,15 @@
 import { Outlet, ScrollRestoration } from 'react-router-dom'
-// import { Header } from '../components/header/Header'
+import { Footer } from '@/components'
+import { Header } from '@/components'
 
 export const Root = () => {
   return (
     <div className='flex flex-col items-center min-h-svh'>
-      {/* <Header /> */}
-      <main className='w-full md:max-w-[384px] min-h-[calc(100svh-43px)] flex flex-col justify-center'>
+      <Header />
+      <main className='w-full md:max-w-[1380px] flex flex-col justify-center px-5'>
         <Outlet />
       </main>
+      <Footer />
       <ScrollRestoration />
     </div>
   )

@@ -9,7 +9,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        libre: ['"Inter"', ...defaultTheme.fontFamily.sans]
+        inter: ['"Inter"', ...defaultTheme.fontFamily.sans]
       }
     },
   },
